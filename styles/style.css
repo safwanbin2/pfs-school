@@ -4,3 +4,14 @@
 .creambg{
     background-color: rgba(244, 250, 253, 1);
 }
+#register .container{
+    min-height: 40vh;
+}
+
+
+/* media for mobiles */
+@media screen and (max-width:576px) {
+    #register .container{
+        min-height: 20vh;
+    }
+}
