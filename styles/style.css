@@ -6,6 +6,9 @@ body{
 .carousel-item img{
     filter: brightness(30%);
 }
+.carousel-caption{
+    transform: translateY(-170px);
+}
 .creambg{
     background-color: rgba(244, 250, 253, 1);
 }
@@ -14,12 +17,22 @@ body{
 }
 #register .container{
     min-height: 40vh;
+    padding: 20px 10px;
 }
 
-
+/* media for tablet */
+@media screen and (max-width:992px) {
+    .carousel-caption{
+        transform: translateY(0);
+    }
+}
 /* media for mobiles */
 @media screen and (max-width:576px) {
     #register .container{
         min-height: 20vh;
+        padding: 20px 0;
+    }
+    .carousel-caption{
+        transform: translateY(0);
     }
 }
