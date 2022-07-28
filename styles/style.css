@@ -4,6 +4,9 @@
 .creambg{
     background-color: rgba(244, 250, 253, 1);
 }
+.footerbg{
+    background-color: rgba(22, 22, 22, 1);
+}
 #register .container{
     min-height: 40vh;
 }
